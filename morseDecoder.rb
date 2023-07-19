@@ -17,3 +17,11 @@ def convert_word(morse_word)
   decoded_word = morse_word.split(' ').map { |morse_character| convert_character(morse_character) }.join
   decoded_word
 end
+
+def decode_morse_data(message)  words = message.split('   ').map { |morse_word| convert_word(morse_word) }
+  decoded_message = words.join(' ')
+  decoded_message
+end
+  message = ".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ..."
+  decoded_message = decode_morse_data(message)
+  puts decoded_message
