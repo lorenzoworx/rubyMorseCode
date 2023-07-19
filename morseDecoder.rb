@@ -13,3 +13,7 @@ def convert_character(morse_character)
   morse_map[morse_character] || ''
 end
 
+def convert_word(morse_word)
+  decoded_word = morse_word.split(' ').map { |morse_character| convert_character(morse_character) }.join
+  decoded_word
+end
