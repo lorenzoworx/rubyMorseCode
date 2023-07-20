@@ -60,11 +60,13 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+To get a local copy up and running, follow these steps:
+- Clone or download the repository to your local machine.
+- Run `bundle install` to install all the required gems.
 
 ### Prerequisites
 
-In order to run this project you need:
+In order to run this project you need: any modern web-browser(Chrome, Firefox, Safari, Opera..etc) and a text editor of your choice.
 
 <!--
 Example command:
@@ -76,7 +78,7 @@ Example command:
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this [repository](https://github.com/lorenzoworx/rubyMorseCode.git) to your desired folder:
 
 <!--
 Example commands:
@@ -89,7 +91,7 @@ Example commands:
 
 ### Install
 
-Install this project with:
+This project does not require installation
 
 <!--
 Example command:
@@ -103,6 +105,8 @@ Example command:
 ### Usage
 
 To run the project, execute the following command:
+
+`ruby morse_decoder.rb`
 
 <!--
 Example command:
